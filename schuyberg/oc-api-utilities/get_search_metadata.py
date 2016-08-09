@@ -1,6 +1,8 @@
 
 #  execute Open Collections search and write metadata to a json file
 #  @schuyberg 2016
+#
+# thanks to @seanmcna for the query structure!
 
 import json, requests, sys
 
@@ -23,7 +25,6 @@ filename = 'music'
 
 # run with test as true for testing, false (or no argument) to write to file
 test = False
-
 
 ###########################
 
